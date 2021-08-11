@@ -6,8 +6,11 @@
 
 ![alt text](https://github.com/sumaiya-antara/Kubernetes/blob/master/Kubernetes.png "kubernetes architecture")
 
+
 ## Pods:
 In kubernetes architecture, the containers remain in **pod**. In each instance/server/node, one or multiple pods can reside. Each pod can contain a collection of containers or a single container.
+
+![alt text](https://github.com/sumaiya-antara/Kubernetes/blob/master/Pods.png "pods")
 
 ## Master Nodes and Worker Nodes:
 The Pods are controlled by the **Master Node** in the control plane. The pods remain in the **Worker Nodes** in the data plane.
